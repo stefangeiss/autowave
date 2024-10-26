@@ -1,0 +1,28 @@
+Package: autowave
+Title: autowave: Detect, extract and inspect *spikes* or *shocks* in a time series.
+Version: 0.0.0.9000
+Authors@R: 
+    person("Stefan", "Geiß", , "stefan.geiss@ntnu.no", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-8978-0095"))
+Description: Detect, extract and inspect *spikes* or *shocks* in a time series. A *shock* is an abnormal increase from the expected value. Developed for analyzing the intensity of news coverage about an issue to detect major news events.
+License: `use_mit_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    dplyr
+    zoo
+    reshape2
+    tidyverse
+    car
+    stringr
+    quanteda
+    stm
+    zoo
+    forecast
+    imputeTS
+    pbapply
+    matrixStats
+    stringdist
+    ggplot2
+    gridExtra
